@@ -5,12 +5,14 @@ return newArry
 
 console.log(Mission1([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
 
-function Mission2(arry){
-    let newArry =  arry.filter(ar => ar.length  === 4);
+function Mission2(string){
+    let sentence = "This is an example sentence";
+let wordsArray = string.split(' ')
+    let newArry =  wordsArray.filter(wr => wr.length  === 4);
 return newArry.length
 }
 
-console.log(Mission2(['a', 'abcd', 'abcde', 'abc', 'ab', 'asdf', 'qwer', '123','1234']));
+console.log(Mission2('ari gotlib i am 1234 123 5421 1 1234 54 5ag5'));
 
 function Mission3(arry){
     let newArr = [];
